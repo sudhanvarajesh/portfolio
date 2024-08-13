@@ -30,7 +30,7 @@ const fitt = () => {
             <li>Developed a real-time pose landmark detection, leveraging a pre-trained model for immediate feedback
               during exercises, markedly enhancing the user experience by enabling prompt corrections and refining workout techniques.
             </li>
-            <li>Engineered a robust full-stack application that analyzes trainers' sample exercise videos and generates a set of personalized
+            <li>Engineered a robust full-stack application that analyzes sample exercise videos from a trainer and generates a set of personalized
               rules to train new users, driving efficient progress tracking and resulting in a highly adaptive and impactful training platform.
             </li>
           </ul>
