@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
-import algo from '../public/assets/skills/algo.jpeg';
-import ml from '../public/assets/skills/ml.png';
-import mongo from '../public/assets/skills/mongo.png';
-import languages from '../public/assets/skills/languages.png';
-import webdev from '../public/assets/skills/react.png';
-import AWS from '../public/assets/skills/aws.png';
+// import algo from '../public/assets/skills/algo.jpeg';
+// import ml from '../public/assets/skills/ml.png';
+// import mongo from '../public/assets/skills/mongo.png';
+// import languages from '../public/assets/skills/languages.png';
+// import webdev from '../public/assets/skills/react.png';
+// import AWS from '../public/assets/skills/aws.png';
 
 const Skills = () => {
   return (
@@ -21,7 +21,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               
               <div className='m-auto'>
-                <Image src={languages} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/languages.png'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>
@@ -45,7 +45,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               
               <div className='m-auto'>
-                <Image src={webdev} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/react.png'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>
@@ -69,7 +69,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               
               <div className='m-auto'>
-                <Image src={AWS} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/aws.png'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>
@@ -90,7 +90,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
           
               <div className='m-auto'>
-                <Image src={ml} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/ml.png'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>
@@ -108,7 +108,7 @@ const Skills = () => {
           <h3>Databases & Search/Analytics</h3> <br />
           <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={mongo} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/mongo.png'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>
@@ -129,7 +129,7 @@ const Skills = () => {
           <h3>Algorithms & Design</h3> <br />
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={algo} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/skills/algo.jpeg'} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <ul>

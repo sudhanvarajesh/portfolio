@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import connect4Img from '../public/assets/projects/connect4.png';
+// import connect4Img from '../public/assets/projects/connect4.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,7 +13,7 @@ const connect4 = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={connect4Img}
+          src={'/assets/projects/connect4.png'}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
