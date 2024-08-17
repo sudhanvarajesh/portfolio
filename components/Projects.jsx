@@ -10,6 +10,8 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
+      <br />
+      <br />
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -31,7 +33,7 @@ const Projects = () => {
           />
           <ProjectItem
             title=' Connect4 - 
-             A Service Management Platform' 
+             A Service Management Platform'
             backgroundImg={'/assets/projects/connect4.png'}
             projectUrl='/connect4'
             tech='React JS'
@@ -41,9 +43,34 @@ const Projects = () => {
             title='Text-Based Image Retrieval Using Captioning'
             backgroundImg={'/assets/projects/imgcap.png'}
             projectUrl='/imgcap'
-            tech='Next JS'
+            tech=''
 
           />
+
+          <ProjectItem
+            title='Sign2Sign: A Novel Approach Towards Real-Time ASL to ISL Translation'
+            backgroundImg={'/assets/projects/imgcap.png'}
+            projectUrl='/s2s'
+            tech=''
+
+          />
+
+          <ProjectItem
+            title='Keyphrase extraction using BERT as an sentence embedder'
+            backgroundImg={'/assets/projects/imgcap.png'}
+            projectUrl='/keyphrase'
+            tech=''
+
+          />
+
+          <ProjectItem
+            title='A Comparative Analysis of Chest X-Rays and CT Scans Towards COVID-19 Detection'
+            backgroundImg={'/assets/projects/imgcap.png'}
+            projectUrl='/ct'
+            tech=''
+
+          />
+          
         </div>
       </div>
     </div>
