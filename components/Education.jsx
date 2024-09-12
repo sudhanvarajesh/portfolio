@@ -6,7 +6,7 @@ const Education = () => {
   const educationList = [
     {
       degree: 'Master\'s Degree in Computer Science',
-      institution: 'Texas A&M University | Bangalore, India',
+      institution: 'Texas A&M University | College Station, Texas',
       duration: 'Aug 2023 – May 2025',
       details: [
         'GPA: 3.83',
